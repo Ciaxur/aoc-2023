@@ -25,7 +25,7 @@ fn find_digit_name_in_str(s: &str) -> (char, bool) {
   ('\0', false)
 }
 
-/// Finds the left-most digit within the given string,
+/// Finds the left/right-most digit within the given string,
 /// returning the value.
 fn find_digit(s: String, is_left_most: bool) -> char {
   // Search based on search side.
